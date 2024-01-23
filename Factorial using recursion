@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+int n;
+count<<"Enter a positive integer:";
+return0;
+}
+int fatorial(int n)
+{
+if(n>1)
+return n*factorial (n-1);
+else
+return1;
+}

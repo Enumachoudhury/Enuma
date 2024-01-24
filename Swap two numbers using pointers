@@ -1,0 +1,12 @@
+#include <stdio.h>
+//function declaration 
+void swap(int*,int*);
+int maim() {
+  int a,b,temp;
+  int *ptr1,*ptr2;
+  printf("\nBefore swapping a = %d and b = %d",a,b);
+  //call the swap() function to swap a and b 
+  swap(&a,&b);
+  printf("\nAfter swapping a = %d and b = %d",a,b);
+  return 0;
+}
